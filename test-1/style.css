@@ -1,0 +1,69 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container{
+	width:80%;
+	margin:0 auto;
+}
+section{
+	padding:60px 0px;
+}
+.row{
+	display:flex;
+}
+.sass-sec{
+	padding:0px 12px;
+	width:50%;
+}
+.sass-cont{
+	display:flex;
+	box-shadow:0 0 5px #ccc;
+}
+.sass-img{
+	width:50%;
+	padding:12px;
+	overflow:hidden;
+	position:relative;
+}
+.sass-img img{
+	width:100%;
+}
+.sass-img .date{
+	position:absolute;
+	top:10px;
+	left:10px;
+}
+.mark-sec{
+	padding:0px 12px;
+	width:50%;
+}
+.mark-cont{
+	display:flex;
+	box-shadow:0 0 5px #ccc;
+}
+.mark-img{
+	width:50%;
+	padding:12px;
+	overflow:hidden;
+	position:relative;
+}
+.mark-img img{
+	width:100%;
+}
+.mark-img .date{
+	position:absolute;
+	top:10px;
+	left:10px;
+}
+.date{
+	text-align:center;
+	box-shadow:0 0 5px #ccc;
+}
+p{
+	color:#ccc;
+}
+.sass-para,.mark-para{
+	width:50%;
+}
